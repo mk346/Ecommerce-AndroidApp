@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "226198072117",
+    "project_id": "ecommerce-app-2cc62",
+    "storage_bucket": "ecommerce-app-2cc62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226198072117:android:9a79885b96f1b824acfa7c",
+        "android_client_info": {
+          "package_name": "com.juice.shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226198072117-9t1p5enj09vgs59bkd2jr995edob3dqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.juice.shopping",
+            "certificate_hash": "a012b827f3df82c71a94c19c2aabe1ecf0f0f119"
+          }
+        },
+        {
+          "client_id": "226198072117-ngo1qfj9tai45bognfkj1n863le6chrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPWtL04enyet-xl4f3Voo_ydXNUW9QnHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226198072117-ngo1qfj9tai45bognfkj1n863le6chrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

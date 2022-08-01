@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pamoja.shopping">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/juice1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/juice1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ekart"
+        tools:replace="android:icon,theme">
+        <!--        tools:replace="android:theme"-->
+        <activity android:name="com.pamoja.shopping.HomeActivity"
+
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="com.pamoja.shopping.SettinsActivity" />
+        <activity android:name="com.pamoja.shopping.SearchProductsActivity" />
+        <activity android:name="com.pamoja.shopping.RegisterActivity" />
+        <activity android:name="com.pamoja.shopping.ProductDetailsActivity" />
+        <activity android:name="com.pamoja.shopping.LoginActivity" />
+        <activity android:name="com.pamoja.shopping.ConfirmFinalOrderActivity" />
+        <activity android:name="com.pamoja.shopping.CartActivity" />
+        <activity android:name="com.pamoja.shopping.AdminUserProductsActivity" />
+        <activity android:name="com.pamoja.shopping.AdminNewOrdersActivity" />
+        <activity android:name="com.pamoja.shopping.AdminCategoryActivity" />
+        <activity android:name="com.pamoja.shopping.AdminAddNewProductActivity" />
+        <activity android:name="com.pamoja.shopping.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>
